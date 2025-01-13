@@ -3,7 +3,7 @@
 <br>
 <br>
 
-# :ghost: 이용한 영화 정보 웹사이트 :ghost:
+# :ghost: 영화 정보 웹사이트 :ghost:
 https://velog.io/@youjh0421/Project-Next.js%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%98%81%ED%99%94%EC%A0%95%EB%B3%B4%EC%A0%9C%EA%B3%B5%EC%84%9C%EB%B9%84%EC%8A%A4-01
 <br>
 
