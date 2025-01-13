@@ -3,7 +3,7 @@
 <br>
 <br>
 
-# :ghost: Next.js를 이용한 영화 정보 웹사이트 :ghost:
+# :ghost: 이용한 영화 정보 웹사이트 :ghost:
 https://velog.io/@youjh0421/Project-Next.js%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%98%81%ED%99%94%EC%A0%95%EB%B3%B4%EC%A0%9C%EA%B3%B5%EC%84%9C%EB%B9%84%EC%8A%A4-01
 <br>
 
@@ -14,7 +14,6 @@ POPCORNLORE은 Next.js로 구현한 영화정보제공서비스이다.
 <br>
 
 ## 2. 프로젝트 기획 이유
-Next.js를 이용한 간단한 프로젝트를 구상하던 도중 요즘 관심이 가던 "영화"로 정하였다.
 
 코로나때 큰 영화관에 1명의 직원만이 근무 하고 있어서 놀란 적이 있어서 지나갈때마다 유심히 보게 된다. 최근들어 관람객 수는 증가하였지만, 여전히 영화관 직원 1-2명으로 대면 서비스보다 온라인서비스로 대체하고 있는 것을 알게되었다.
 
@@ -31,9 +30,9 @@ Next.js를 이용한 간단한 프로젝트를 구상하던 도중 요즘 관심
 5) 스낵바
 <br><br>
 
-- 개발언어 : TypeScript(Next.js), JAVA, JavaScript, CSS <br>
-- 사용툴: VSCode, STS4<br>
-- DB: Oracle<br>
+- 개발언어 :  JAVA, TypeScript(Next.js), JavaScript, CSS <br>
+- 사용툴: VSCode, IntelliJ<br>
+- DB: MySQL <br>
 - API : 영화진흥위원회 오픈 API<br>
 - 요청 프로토콜 : REST<br>
 - 응답 형식 : JSON<br>
