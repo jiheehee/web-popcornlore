@@ -9,11 +9,13 @@ public class Item {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
     //id 컬럼에는(PK값) @Id 꼭 붙이기
-    //@GeneratedValue(strategy = GenerationType.IDENTITY) -> id 값을 1씩 증가시켜서 넣어줌
+//    @GeneratedValue(strategy = GenerationType.IDENTITY) -> id 값을 1씩 증가시켜서 넣어줌
 
     @Column(nullable = false)  //제약조건 설정하는 것 -> ex) 이 컬럼 비어있으면 테이블에 입력 막아주세요 =
     public String title;   //title 컬럼 추가
     public Integer price;
+
+//    var object = new inform();
 
 
 
