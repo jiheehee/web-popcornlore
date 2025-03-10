@@ -6,18 +6,20 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="/main.css" rel="stylesheet">
 </head>
-<body>
+
+
+<body class="card" th:each="i : ${items}">
     <div>
-        <img>
-        <h4 th:text="${name}">캬라멜팝콘</h4>
-        <p>5500원</p>
+        <img src="https://placehold.co/300">
+        <div>
+        <h4 th:text="${i.title}">상품제목</h4>
+        <p th:text="${i.price}">상품가격</p>
+        </div>
     </div>
-    <div>
-        <img>
-        <h4>제로콜라</h4>
-        <p>1000원</p>
-    </div>
+
+
     <form action="/writePost" method="get">
         <div>
             <h4 th:text="${inputName}"></h4>

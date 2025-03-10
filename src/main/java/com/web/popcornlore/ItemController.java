@@ -31,8 +31,13 @@ public class ItemController {
         var result=itemRepository.findAll();
         System.out.println(result.get(0).title);
         System.out.println(result.get(0).price);
+        
+        //id,title,price값 뽑아줌
+        //Item클래스의 @toString 사용
+        var a = new Item();
+        System.out.println(a);
 
-        model.addAttribute("name","오로라공주");
+        model.addAttribute("items",result);
         return "list.html";
     }
 

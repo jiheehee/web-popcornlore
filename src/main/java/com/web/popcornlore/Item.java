@@ -3,10 +3,12 @@ package com.web.popcornlore;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Entity // @Entity를 붙이면 item이라는 이름으로 테이블을 하나 생성해줌 -> jpa 라이브러리를 사용한 것
 @Getter
 @Setter
+@ToString
 public class Item {
 
     @Id
